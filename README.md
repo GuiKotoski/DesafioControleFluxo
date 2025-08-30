@@ -16,12 +16,17 @@ O programa recebe **dois números inteiros** informados pelo usuário via termin
 Se o usuário digitar:
 
 Digite o primeiro parâmetro: 12 
+
 Digite o segundo parâmetro: 30
 
 O programa imprimirá:
+
 Imprimindo o número 1 
-Imprimindo o número 2 
-... 
+
+Imprimindo o número 2
+
+...
+ 
 Imprimindo o número 18
 
 ## 🛠️ Tecnologias utilizadas
@@ -51,4 +56,5 @@ DesafioControleFluxo/
 Desenvolvido por **Guilherme** como parte da jornada de aprendizado em Java pela DIO.
 
 ---
+
 
