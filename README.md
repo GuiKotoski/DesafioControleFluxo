@@ -1,60 +1,25 @@
-# 🚀 Desafio Controle de Fluxo - Java | DIO
+# Desafio Controle de Fluxo - Java
 
-Este projeto foi desenvolvido como parte dos desafios propostos pela [DIO - Digital Innovation One](https://www.dio.me/), com o objetivo de praticar conceitos fundamentais de **controle de fluxo** em Java, incluindo estruturas condicionais, laços de repetição e tratamento de exceções.
+Projeto desenvolvido como parte de um desafio prático da :contentReference[oaicite:0]{index=0} (Digital Innovation One).
 
-## 📋 Descrição do Desafio
+O objetivo é praticar conceitos básicos de controle de fluxo em Java, como estruturas condicionais, laços de repetição e uso de exceções.
 
-O programa recebe **dois números inteiros** informados pelo usuário via terminal. Com base nesses valores, ele realiza as seguintes ações:
+## Descrição
+O programa recebe dois números inteiros via terminal.  
+Se o segundo número for menor ou igual ao primeiro, é lançada uma exceção personalizada.  
+Caso contrário, o programa imprime uma contagem baseada na diferença entre os valores.
 
-- Verifica se o **segundo número é maior que o primeiro**.
-- Caso contrário, lança uma **exceção personalizada** chamada `ParametrosInvalidosException`.
-- Se os parâmetros forem válidos, calcula a **diferença entre os dois números**.
-- Executa um **laço `for`** que imprime uma contagem de 1 até essa diferença.
+## Tecnologias
+- Java
+- IDE Java (IntelliJ, Eclipse ou VS Code)
+- Terminal
 
-### 🧠 Exemplo de execução
+## Estrutura
+- `Contador.java`
+- `ParametrosInvalidosException.java`
 
-Se o usuário digitar:
+## Status
+✔ Desafio concluído
 
-Digite o primeiro parâmetro: 12 
-
-Digite o segundo parâmetro: 30
-
-O programa imprimirá:
-
-Imprimindo o número 1 
-
-Imprimindo o número 2
-
-...
- 
-Imprimindo o número 18
-
-## 🛠️ Tecnologias utilizadas
-
-- Java 17+
-- IDE de sua preferência (Eclipse, IntelliJ, VS Code)
-- Terminal / Console
-
-## 📂 Estrutura do projeto
-DesafioControleFluxo/ 
-
-├── Contador.java 
-
-└── ParametrosInvalidosException.java
-
-
-## 💡 Aprendizados
-
-- Uso de `Scanner` para entrada de dados
-- Estrutura condicional `if`
-- Laço de repetição `for`
-- Criação e lançamento de exceções customizadas
-- Boas práticas de interação com o usuário via console
-
-## 🙋‍♂️ Autor
-
-Desenvolvido por **Guilherme** como parte da jornada de aprendizado em Java pela DIO.
-
----
-
-
+## Autor
+Guilherme Kotoski
